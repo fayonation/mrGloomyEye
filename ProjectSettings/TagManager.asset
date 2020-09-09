@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - items
+  - enemy
+  - player
+  - nomalAttack
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: enviroment_ground
+    uniqueID: 3933516729
+    locked: 0
+  - name: enviroment_clifs
+    uniqueID: 91345979
+    locked: 0
+  - name: enviroment_foliage
+    uniqueID: 1226881021
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 1707303255
+    locked: 0
+  - name: enemy
+    uniqueID: 859780131
+    locked: 0
+  - name: items
+    uniqueID: 1027599259
+    locked: 0
+  - name: walls
+    uniqueID: 117353275
+    locked: 0
