@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\Characters\Player\Attacks\projectile_fay.cs" />
      <Compile Include="Assets\Scripts\Characters\Player\Movement\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Characters\Player\Movement\Warp.cs" />
+     <Compile Include="Assets\Scripts\Characters\Player\Movement\teleport_with_flames.cs" />
      <Compile Include="Assets\Scripts\Characters\Player\Player_Manager.cs" />
      <Compile Include="Assets\Scripts\Dungeons\ArrowBlocker.cs" />
      <Compile Include="Assets\Scripts\Dungeons\BombableWallScript.cs" />
@@ -89,6 +90,9 @@
      <Compile Include="Assets\Scripts\Items\RupeeDrop.cs" />
      <Compile Include="Assets\Scripts\Items\ShopItem.cs" />
      <Compile Include="Assets\Scripts\Items\ShopManager.cs" />
+     <Compile Include="Assets\Scripts\Items\diminishingFlames.cs" />
+     <Compile Include="Assets\Scripts\Items\elements.cs" />
+     <Compile Include="Assets\Scripts\Items\getAffectedByElement.cs" />
      <Compile Include="Assets\Scripts\Scene\BackgroundMusicToggle.cs" />
      <Compile Include="Assets\Scripts\Scene\ChangeBackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\Scene\EndCinematic.cs" />
@@ -713,6 +717,9 @@
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>G:/Personal Projects/Mr.GloomyEye/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>G:/Personal Projects/Mr.GloomyEye/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
         <HintPath>G:/Personal Projects/Mr.GloomyEye/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
@@ -730,9 +737,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>G:/Personal Projects/Mr.GloomyEye/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>G:/Personal Projects/Mr.GloomyEye/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

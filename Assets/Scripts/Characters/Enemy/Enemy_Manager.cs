@@ -39,7 +39,6 @@ namespace RPG
         // turning face
 
         private Transform body;
-        // Animator Anim;
         public float charScale = 5;
 
 
@@ -178,6 +177,9 @@ namespace RPG
                 if ((distance <= attackRange) && (canAttack)) //if in range for attack then attack
                 {
                     Attack.Attack();
+                    //Set Attack animation
+                    CharacterAnimator.SetBool("isAttacking", true);
+                    CharacterAnimator.SetBool("isWalking", false);
                     if (RangedAttackSound)
                     {
                         EnemyAttackAudio.clip = RangedAttackSound;
@@ -189,6 +191,7 @@ namespace RPG
                     EnemyAttackAudio.Play();
                     attackTimer = TimeBetweenEnemyAttacks;
                     canAttack = false;
+                    // attck animation will stop in the make arrow appear helper script 
                 }
             }
         }
@@ -313,10 +316,10 @@ namespace RPG
             if (Random.Range(0, 100) > 50)
             {
                 //gets heart from the resource folder and drops it at Enemies position
-                GameObject.Instantiate(Resources.Load("Heart"), transform.position, Quaternion.identity);
+                GameObject.Instantiate(Resources.Load("Heart"), new Vector2(transform.position.x, transform.position.y - 6), Quaternion.identity);
             }
             else
-                GameObject.Instantiate(Resources.Load("Rupee"), transform.position, Quaternion.identity);
+                GameObject.Instantiate(Resources.Load("Rupee"), new Vector2(transform.position.x, transform.position.y - 6), Quaternion.identity);
             //Debug.Log("drop loot roll");
             //drop hearts or Rupees. for now just hearts are implemented
         }

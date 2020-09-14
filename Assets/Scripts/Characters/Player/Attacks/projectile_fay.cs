@@ -14,7 +14,7 @@ namespace RPG
         // public Transform player;
         public Vector2 target;
         Vector2 mousePosition;
-        Rigidbody2D ArrowRigidBody;
+        // Rigidbody2D ArrowRigidBody;
         public bool wsel = false;
         // Use this for initialization
         void Start()
@@ -24,10 +24,9 @@ namespace RPG
             {
                 Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.Find("Wall").GetComponent<Collider2D>());
             }
-            ArrowRigidBody = GetComponent<Rigidbody2D>();
-            Animator PlayerAnim = GameObject.Find("Player").transform.GetChild(0).GetComponent<Animator>();
+            // ArrowRigidBody = GetComponent<Rigidbody2D>();
+            // Animator PlayerAnim = GameObject.Find("Player").transform.GetChild(0).GetComponent<Animator>();
             Char = GameObject.Find("Player").GetComponent<Character>();
-
 
 
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
@@ -59,16 +58,27 @@ namespace RPG
 
         protected void OnCollisionEnter2D(Collision2D collision)
         {
-            Destroy(this.gameObject);
             Instantiate(Resources.Load("basicBlackExplosion"), transform.position, Quaternion.identity);
 
             if (collision.gameObject.tag != "NPC")
             {
                 collision.gameObject.SendMessage("TakeDamage", Char, SendMessageOptions.DontRequireReceiver);
             }
+            if (collision.gameObject.GetComponent<getAffectedByElement>())
+            {
+                affectOther(collision.gameObject);
+            }
+            Destroy(this.gameObject);
         }
 
-
+        void affectOther(GameObject TheAffected)
+        {
+            elements element = gameObject.GetComponent<elements>();
+            if (element)
+            {
+                TheAffected.GetComponent<getAffectedByElement>().getAffected(element);
+            }
+        }
 
 
     }

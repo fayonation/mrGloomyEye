@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Wall
+  - teleportSpot
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - enemy
   - player
   - nomalAttack
-  - 
+  - groundIllusion
   - 
   - 
   - 
@@ -49,18 +50,21 @@ TagManager:
   - name: enviroment_foliage
     uniqueID: 1226881021
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: player
-    uniqueID: 1707303255
+  - name: items
+    uniqueID: 1027599259
     locked: 0
   - name: enemy
     uniqueID: 859780131
     locked: 0
-  - name: items
-    uniqueID: 1027599259
+  - name: player
+    uniqueID: 1707303255
     locked: 0
   - name: walls
     uniqueID: 117353275
+    locked: 0
+  - name: attack_spell
+    uniqueID: 2522347313
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

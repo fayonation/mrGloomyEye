@@ -49,9 +49,18 @@ namespace RPG
          ****************************************************************************************************************/
         public override void makeDamageBoxApper()
         {
-            GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(playerPos.x + adjustment.x, playerPos.y + adjustment.y, playerPos.z), transform.rotation);
+            GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(playerPos.x + adjustment.x, playerPos.y + adjustment.y, 0), transform.rotation);
             damage.GetComponent<EnemyDamage>().Char = GetComponent<Character>();
             Physics2D.IgnoreCollision(damage.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+        public override void makeArrowAppear()
+        {
+            Transform arrowSource = GetComponent<Transform>().Find("body_gfx/torso/left_arm/left_hand/brush/bone_12/bone_13/brush_effector");
+            GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(arrowSource.position.x, arrowSource.position.y, 0), transform.rotation);
+            damage.GetComponent<EnemyArrow>().Char = gameObject.GetComponent<Character>();
+            Physics2D.IgnoreCollision(damage.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            //Set Attack animation
+            Anim.SetBool("isAttacking", false);
         }
     }
 }

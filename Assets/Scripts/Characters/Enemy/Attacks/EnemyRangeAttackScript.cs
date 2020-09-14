@@ -84,5 +84,12 @@ namespace RPG
             damage.GetComponent<EnemyDamage>().Char = GetComponent<Character>();
             Physics2D.IgnoreCollision(damage.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
+        public override void makeArrowAppear()
+        {
+            Debug.Log("arrow appeared");
+            // GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(playerPos.x + adjustment.x, playerPos.y + adjustment.y, 0), transform.rotation);
+            // damage.GetComponent<EnemyDamage>().Char = GetComponent<Character>();
+            // Physics2D.IgnoreCollision(damage.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 }

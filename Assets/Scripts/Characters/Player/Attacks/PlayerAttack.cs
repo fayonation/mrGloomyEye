@@ -91,7 +91,7 @@ namespace RPG
                 PlayerAudio.Play();
 
                 //Create and instantiate the damage box along with its appropriate coordinates. Then we make sure that the Player and the hitbox can't collide
-                GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(playerPos.x + adjustment.x, playerPos.y + adjustment.y, playerPos.z), transform.rotation);
+                GameObject damage = (GameObject)Instantiate(DamageBox, new Vector3(playerPos.x + adjustment.x, playerPos.y + adjustment.y, 0), transform.rotation);
                 damage.name = "DamageBox";
                 damage.GetComponent<Damage>().Char = GetComponent<Character>();
 

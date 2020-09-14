@@ -26,6 +26,7 @@ namespace RPG
 
         public abstract void Attack();
         public abstract void makeDamageBoxApper();
+        public abstract void makeArrowAppear();
     }
 
 }

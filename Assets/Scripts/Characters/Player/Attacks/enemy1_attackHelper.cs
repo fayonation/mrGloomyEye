@@ -7,6 +7,8 @@ namespace RPG
 {
     public class enemy1_attackHelper : MonoBehaviour
     {
+
+        public bool isRanged = false;
         EnemyDefaultAttackScript attackScript;
         void Start()
         {
@@ -14,7 +16,10 @@ namespace RPG
         }
         public void helpMakeDamageBoxAppear()
         {
-            attackScript.makeDamageBoxApper();
+            if (!isRanged)
+                attackScript.makeDamageBoxApper();
+            else
+                attackScript.makeArrowAppear();
         }
     }
 
