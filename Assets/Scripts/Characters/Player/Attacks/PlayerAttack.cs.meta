@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6c781c8d71859d941aec968b8af1057a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DamageBox: {instanceID: 0}
+  - BombDamageBox: {instanceID: 0}
+  - PlayerManager: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - Arrow: {fileID: 2314489791451978694, guid: 2302ac04252e84b4397ed421d275955c, type: 3}
+  - arrowSource: {instanceID: 0}
+  - Bomb: {instanceID: 0}
+  - HitSound: {instanceID: 0}
+  - PlayerAudio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -53,7 +53,17 @@ namespace RPG
 
         void OnDestroy()
         {
-            Instantiate(Resources.Load("FireExplosion"), transform.position, Quaternion.identity);
+            string explosionElement = "";
+            string ele = gameObject.GetComponent<elements>().perk;
+            if (ele == "ic")
+                explosionElement = "ImpactExplosion_ice";
+            else if (ele == "fr")
+                explosionElement = "ImpactExplosion_fire";
+            else if (ele == "bc")
+                explosionElement = "ImpactExplosion_basic";
+
+            if (explosionElement != "")
+                Instantiate(Resources.Load(explosionElement), transform.position, Quaternion.identity);
         }
 
     }

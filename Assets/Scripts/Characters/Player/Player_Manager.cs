@@ -68,6 +68,10 @@ namespace RPG
         public bool StartWithIntro = false;
         public bool Dead = false;
 
+        int floatSpeed = 2;
+        float noneFloatingSpeed = 0f; // default speed to put back after it's done
+        bool Floatating = false;
+
         // used for GameOver
         private SceneChanger SC;
 
@@ -75,11 +79,13 @@ namespace RPG
         {
             Application.targetFrameRate = 300;
             PlayerCollider = GetComponent<Collider2D>();
-            CharacterAnimator = GetComponent<Animator>();
+            CharacterAnimator = transform.GetChild(0).GetComponent<Animator>();
             PlayerAudios = GetComponents<AudioSource>();
             PlayerInternalAudio = PlayerAudios[0];
             // PlayerExternalAudio = PlayerAudios[1];
             //we dont wnat multiple Player objects to exist
+            ps = transform.GetChild(1).GetChild(0).GetComponent<ParticleSystem>();
+            emissionModule = ps.emission;
             DontDestroyOnLoad(this);
         }
 
@@ -97,17 +103,61 @@ namespace RPG
             healthUpgradeNumber = 0;
         }
 
+        private ParticleSystem ps;
+        ParticleSystem.EmissionModule emissionModule;
+        public float floatationParticleAmount = 100;
+        void flotate()
+        {
+
+            if (!Floatating)
+            {
+                noneFloatingSpeed = currentMoveSpeed;
+                Floatating = true;
+                CharacterAnimator.SetBool("isFloatating", true);
+            }
+            currentMoveSpeed = defaultMoveSpeed * floatSpeed;
+        }
+
+        void diminishFloatationParticles()
+        {
+            if (!Input.GetButton("floatate") && floatationParticleAmount > 0)
+            {
+                floatationParticleAmount -= 10;
+                emissionModule.rate = floatationParticleAmount;
+            }
+            else
+            {
+                if (Input.GetButton("floatate") && floatationParticleAmount < 100)
+                    floatationParticleAmount = floatationParticleAmount + 20;
+                emissionModule.rate = floatationParticleAmount;
+            }
+        }
+
         // Update is called once per frame
         void Update()
         {
             //We only allow interactions to occur if the Player is currently not interacting 
             //Since the object the Player interacts with will reset currentlyInteracting for us
-            // , this conditional should be safe
+            // , this conditional should be safe 
             if (Input.GetKeyUp(InteractionKey) && currentlyInteracting == false)
             {
                 Interaction();
             }
 
+            //start of floatation stuff
+            if (Input.GetButton("floatate"))
+            {
+                flotate();
+            }
+            if (Input.GetButtonUp("floatate"))
+            {
+                currentMoveSpeed = noneFloatingSpeed;
+                Floatating = false;
+                CharacterAnimator.SetBool("isFloatating", false);
+            }
+            diminishFloatationParticles();
+
+            //end of floatation stuff
             if (currentHealth <= 0 && !Dead)
             {
                 Death();

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5971f239d1f09f54e8353ccb46e57f3d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Char: {instanceID: 0}
+  - deathBlood: {fileID: 5725435821919385871, guid: 292b8ed6a77d53b44b4cfadaef8adf12,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,9 @@ namespace RPG
         public Character Char;
         // bool canHurtPlayer = false;
 
+        public bool isBouncy = false;
+        int timesBounced = 0;
+        public int bounceLimit = 2;
         public float speed = 50f;
         // public Transform player;
         public Vector2 target;
@@ -58,7 +61,27 @@ namespace RPG
 
         protected void OnCollisionEnter2D(Collision2D collision)
         {
-            Instantiate(Resources.Load("basicBlackExplosion"), transform.position, Quaternion.identity);
+            string explosionElement = "";
+            string ele = gameObject.GetComponent<elements>().perk;
+
+            switch (ele)
+            {
+                case "ic":
+                    explosionElement = "ImpactExplosion_ice";
+                    break;
+                case "fr":
+                    explosionElement = "ImpactExplosion_fire";
+                    break;
+                case "er":
+                    explosionElement = "ImpactExplosion_earth";
+                    break;
+                case "bc":
+                    explosionElement = "ImpactExplosion_basic";
+                    break;
+            }
+
+            if (explosionElement != "")
+                Instantiate(Resources.Load("ImpactExplosion/" + explosionElement), transform.position, Quaternion.identity);
 
             if (collision.gameObject.tag != "NPC")
             {
@@ -68,7 +91,16 @@ namespace RPG
             {
                 affectOther(collision.gameObject);
             }
-            Destroy(this.gameObject);
+            if (isBouncy)
+            {
+                timesBounced++;
+                if (timesBounced >= bounceLimit)
+                    Destroy(this.gameObject);
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
 
         void affectOther(GameObject TheAffected)
