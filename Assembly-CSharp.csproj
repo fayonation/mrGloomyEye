@@ -90,9 +90,11 @@
      <Compile Include="Assets\Scripts\Items\RupeeDrop.cs" />
      <Compile Include="Assets\Scripts\Items\ShopItem.cs" />
      <Compile Include="Assets\Scripts\Items\ShopManager.cs" />
+     <Compile Include="Assets\Scripts\Items\bouncy_projectile.cs" />
      <Compile Include="Assets\Scripts\Items\diminishingFlames.cs" />
      <Compile Include="Assets\Scripts\Items\elements.cs" />
      <Compile Include="Assets\Scripts\Items\getAffectedByElement.cs" />
+     <Compile Include="Assets\Scripts\Items\torch.cs" />
      <Compile Include="Assets\Scripts\Scene\BackgroundMusicToggle.cs" />
      <Compile Include="Assets\Scripts\Scene\ChangeBackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\Scene\EndCinematic.cs" />
@@ -115,6 +117,7 @@
      <Compile Include="Assets\Scripts\UI\MainCanvas.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\StatScreen.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\TitleMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\weaponIcon.cs" />
      <Compile Include="Assets\imports\TinyFire VFX\LightControl.cs" />
      <Compile Include="Assets\imports\TooCubeForest\demoScenes\Movement.cs" />
      <Compile Include="Assets\others\projectile.cs" />

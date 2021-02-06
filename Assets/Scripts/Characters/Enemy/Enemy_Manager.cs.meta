@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 9861de33d4de98343970db09cd84d0f2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CharacterAnimator: {instanceID: 0}
+  - AggroSound: {instanceID: 0}
+  - AttackSound: {instanceID: 0}
+  - RangedAttackSound: {instanceID: 0}
+  - TakeDamageSound: {instanceID: 0}
+  - DieSound: {instanceID: 0}
+  - PatrolScript: {instanceID: 0}
+  - ChaseScript: {instanceID: 0}
+  - Attack: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - enemyCollider: {instanceID: 0}
+  - deathBlood: {fileID: 5725435821919385871, guid: 827b8b3c0b7fb82488acb7a74f9d1f00,
+      type: 3}
+  - EnemyAttackAudio: {instanceID: 0}
+  - EnemyHitAudio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

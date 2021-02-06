@@ -13,6 +13,9 @@ namespace RPG
         public GameObject Player;
         //Arrow variables
         public Rigidbody2D Arrow;
+        string[] weaponsList = { "Arrow_basicAttack", "Arrow_fire", "Arrow_ice", "Arrow_earth", "Arrow_teleporter" };
+        weaponIcon weaponIconScript;
+        public int currentWeaponIndex = 0;
         public GameObject arrowSource;
         public Vector3 arrowSourcePos;
         public Rigidbody2D Bomb;
@@ -35,12 +38,14 @@ namespace RPG
         void Start()
         {
             Anim = this.gameObject.transform.GetChild(0).GetComponent<Animator>();
+            Arrow = Resources.Load<Rigidbody2D>("PlayerArrows/" + weaponsList[currentWeaponIndex]) as Rigidbody2D;
             PlayerManager = GetComponent<Player_Manager>();
             PlayerAudio = PlayerManager.PlayerInternalAudio;
             nextSwordStrike = Time.time;
             nextBowAttack = Time.time;
             nextBombAttack = Time.time;
             arrowSource = GameObject.Find("arrowSource");
+            weaponIconScript = GameObject.Find("currentElement").GetComponent<weaponIcon>();
         }
 
         // Update is called once per frame
@@ -49,6 +54,20 @@ namespace RPG
             Attack();
             bowAttack();
             bombAttack();
+            changeWeapon();
+        }
+
+        void changeWeapon()
+        {
+            if (Input.GetButtonDown("changeWeapon"))
+            {
+                currentWeaponIndex++;
+                if (currentWeaponIndex >= weaponsList.Length) // weaponsList.Length
+                    currentWeaponIndex = 0;
+                weaponIconScript.updateIcon(currentWeaponIndex);
+                Arrow = Resources.Load<Rigidbody2D>("PlayerArrows/" + weaponsList[currentWeaponIndex]) as Rigidbody2D;
+                weaponIconScript.updateIcon(currentWeaponIndex);
+            }
         }
 
         void Attack()
@@ -109,8 +128,6 @@ namespace RPG
             if (Input.GetKeyDown(PlayerManager.BowAttack) && PlayerManager.canBowAttack && PlayerManager.canAttack && (Time.time >= nextBowAttack))
             {
                 Anim.SetBool("isBowAttacking", true);
-                // Debug.Log(Anim.GetFloat("lastMove_x"));
-                // Debug.Log(Anim.GetFloat("lastMove_y"));
                 // play attack sound
                 PlayerAudio.clip = PlayerManager.BowAttackSound;
                 PlayerAudio.Play();
