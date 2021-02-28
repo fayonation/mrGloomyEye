@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5354762790272883563}
   m_Layer: 0
   m_Name: Arrow_teleporter
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,6 +116,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -128,6 +132,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7063901
+      objectReference: {fileID: 0}
+    - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7078218
       objectReference: {fileID: 0}
@@ -138,14 +146,6 @@ PrefabInstance:
     - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.0010877872
-      objectReference: {fileID: 0}
-    - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7063901
-      objectReference: {fileID: 0}
-    - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457994, guid: 0283827c5b0f7704a995eb529ea0c400, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
