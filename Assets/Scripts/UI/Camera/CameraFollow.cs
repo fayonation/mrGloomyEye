@@ -10,7 +10,7 @@ namespace RPG
         //References the Player object
         public Transform Target;
         public float camSpeed = 0.3f;
-        public int camZoom = 30;
+        public float camZoom = 1; // field of view
         Camera mainCam;
 
         GameObject Player;
@@ -34,7 +34,8 @@ namespace RPG
 
             if (Target)
             {
-                mainCam.transform.position = Vector3.Lerp(transform.position, Target.position, camSpeed) + new Vector3(0, 0, -camZoom);
+                mainCam.transform.position = Vector3.Lerp(transform.position, Target.position, camSpeed) + new Vector3(0, 0, -30);
+                mainCam.fieldOfView = 50 * camZoom;
             }
             // else
             // {

@@ -45,11 +45,8 @@ TagManager:
   - name: enviroment_ground
     uniqueID: 3933516729
     locked: 0
-  - name: enviroment_foliage
+  - name: enviroment_foliage_r0
     uniqueID: 1226881021
-    locked: 0
-  - name: enviroment_clifs
-    uniqueID: 91345979
     locked: 0
   - name: items
     uniqueID: 1027599259
@@ -65,6 +62,12 @@ TagManager:
     locked: 0
   - name: attack_spell
     uniqueID: 2522347313
+    locked: 0
+  - name: enviroment_foliage_r1
+    uniqueID: 110775033
+    locked: 0
+  - name: enviroment_clifs
+    uniqueID: 91345979
     locked: 0
   - name: Default
     uniqueID: 0
