@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\Characters\Enemy\Attacks\TentacleAttack.cs" />
      <Compile Include="Assets\Scripts\Characters\Enemy\Attacks\MinotaurChargeDamageBox.cs" />
      <Compile Include="Assets\Scripts\UI\Hud\HudHealth.cs" />
+     <Compile Include="Assets\Scripts\Items\dropRandom.cs" />
      <Compile Include="Assets\Scripts\Scene\ScreenFader.cs" />
      <Compile Include="Assets\Scripts\Dungeons\EyeStatueScript.cs" />
      <Compile Include="Assets\Scripts\Dungeons\ArrowBlocker.cs" />
@@ -123,7 +124,6 @@
      <Compile Include="Assets\Scripts\Dungeons\BombableWallScript.cs" />
      <Compile Include="Assets\Scripts\Scene\gameOver.cs" />
      <Compile Include="Assets\Scripts\Characters\Enemy\Attacks\MagicMissle.cs" />
-     <Compile Include="Assets\Scripts\Items\dropRandom.cs" />
      <None Include="Assets\imports\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\imports\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\imports\Flames Of The Phoenix\READ_ME.txt" />
