@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Game Projects/mrGloomyEye/Packages/manifest.json
+    m_FilePath: C:/Users/Fay_HQ/Desktop/Projects/Games/mrGloomyEye/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637501441771810423
-    m_Hash: 2861983609
+      ticks: 637646567128170103
+    m_Hash: 1040859932
   m_LockFileStatus:
-    m_FilePath: C:/Game Projects/mrGloomyEye/Packages/packages-lock.json
+    m_FilePath: C:/Users/Fay_HQ/Desktop/Projects/Games/mrGloomyEye/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637501441948167615
-    m_Hash: 2490864003
+      ticks: 637646567867782085
+    m_Hash: 4151273988
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.4
+    - packageId: com.unity.2d.animation@5.0.6
       testable: 0
       isDirectDependency: 1
-      version: 5.0.4
+      version: 5.0.6
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.2d.animation@5.0.4
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.2d.animation@5.0.6
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -41,62 +41,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.15-preview.1
-        - 1.0.15-preview.2
-        - 1.0.15-preview.3
-        - 1.0.15-preview.4
-        - 1.0.15-preview.5
-        - 1.0.16-preview
-        - 1.0.16-preview.1
-        - 1.0.16-preview.2
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0-preview.3
-        - 2.1.0-preview.1
-        - 2.1.0-preview.2
-        - 2.1.0-preview.4
-        - 2.1.0-preview.5
-        - 2.1.0-preview.7
-        - 2.2.0-preview.1
-        - 2.2.0-preview.4
-        - 2.2.0-preview.5
-        - 2.2.1-preview.1
-        - 2.2.1-preview.2
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.8
-        - 3.1.0
-        - 3.1.1
-        - 3.2.1
-        - 3.2.2
-        - 3.2.3
-        - 3.2.4
-        - 3.2.5
-        - 3.2.6
-        - 4.0.0
-        - 4.0.1
-        - 4.1.0
-        - 4.1.1
-        - 4.2.1
-        - 4.2.2
-        - 4.2.3
-        - 4.2.4
-        - 4.2.5
-        - 4.2.6
-        - 4.2.8
-        - 5.0.0
-        - 5.0.1
-        - 5.0.2
-        - 5.0.3
-        - 5.0.4
-        - 6.0.0-pre.1
-        - 6.0.0-pre.2
+        - 5.0.6
         compatible:
-        - 5.0.4
-        verified: 5.0.4
+        - 5.0.6
+        verified: 5.0.6
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -142,20 +90,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637478931180000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -206,7 +154,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -251,81 +199,53 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.3.9
+    - packageId: com.unity.collab-proxy@1.7.1
       testable: 0
       isDirectDependency: 1
-      version: 1.3.9
+      version: 1.7.1
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.collab-proxy@1.7.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: 
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
         all:
-        - 1.2.3-preview
-        - 1.2.4-preview
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.11
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17-preview.3
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
-        - 1.3.9
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
+        - 1.7.1
         compatible:
-        - 1.3.9
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
+        - 1.7.1
+        verified: 1.7.1
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
-      - vsc
-      - version
-      - control
-      - collab
-      - collaboration
-      - collaborate
-      - teams
-      - team
-      - cloud
       - backup
+      - cloud
+      - collab
+      - collaborate
+      - collaboration
+      - control
+      - plastic
+      - plasticscm
+      - source
+      - team
+      - teams
+      - version
+      - vcs
       registry:
         id: main
         name: 
@@ -338,20 +258,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -368,58 +288,16 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
         compatible:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.22
+        version: 1.1.27
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -439,7 +317,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -447,12 +325,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.5
+    - packageId: com.unity.ide.visualstudio@2.0.11
       testable: 0
       isDirectDependency: 1
-      version: 2.0.5
+      version: 2.0.11
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -469,10 +347,69 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 2.0.5
+        - 2.0.11
         compatible:
-        - 2.0.5
-        verified: 2.0.5
+        - 2.0.11
+        verified: 2.0.11
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.9
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.27
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
+        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        path: 
+    - packageId: com.unity.ide.vscode@1.2.3
+      testable: 0
+      isDirectDependency: 1
+      version: 1.2.3
+      source: 1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      assetPath: Packages/com.unity.ide.vscode
+      name: com.unity.ide.vscode
+      displayName: Visual Studio Code Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Code editor integration for supporting Visual Studio Code as code
+        editor for unity. Adds support for generating csproj files for intellisense
+        purposes, auto discovery of installations, etc.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.2.3
+        compatible:
+        - 1.2.3
+        verified: 1.2.3
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -493,84 +430,15 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 83ca94e82bb6da515dc57e0d860b6b2224f56991
-        path: 
-    - packageId: com.unity.ide.vscode@1.2.3
-      testable: 0
-      isDirectDependency: 1
-      version: 1.2.3
-      source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.ide.vscode@1.2.3
-      assetPath: Packages/com.unity.ide.vscode
-      name: com.unity.ide.vscode
-      displayName: Visual Studio Code Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        verified: 1.2.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
         path: 
     - packageId: com.unity.postprocessing@2.3.0
       testable: 0
       isDirectDependency: 1
       version: 2.3.0
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.postprocessing@2.3.0
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.postprocessing@2.3.0
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -618,11 +486,15 @@ m_PackageAssets:
         - 2.3.0
         - 3.0.1
         - 3.0.3
+        - 3.1.0
+        - 3.1.1
         compatible:
         - 2.3.0
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.1.0
+        - 3.1.1
+        verified: 3.1.1
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -646,12 +518,12 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/PostProcessing.git
         revision: e6de985c41f04a5fc7c7227dd67e3e73fac834e7
         path: 
-    - packageId: com.unity.render-pipelines.universal@10.3.1
+    - packageId: com.unity.render-pipelines.universal@10.5.1
       testable: 0
       isDirectDependency: 1
-      version: 10.3.1
+      version: 10.5.1
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.render-pipelines.universal@10.3.1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.render-pipelines.universal@10.5.1
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -669,52 +541,22 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 7.5.3
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.14
-        - 9.0.0-preview.35
-        - 9.0.0-preview.55
-        - 9.0.0-preview.72
-        - 10.0.0-preview.26
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        - 10.3.1
+        - 10.5.1
         compatible:
-        - 10.3.1
-        verified: 10.3.1
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.render-pipelines.core
-        version: 10.3.1
+        version: 10.5.1
       - name: com.unity.shadergraph
-        version: 10.3.1
+        version: 10.5.1
       resolvedDependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.render-pipelines.core
-        version: 10.3.1
+        version: 10.5.1
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -722,9 +564,9 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.shadergraph
-        version: 10.3.1
+        version: 10.5.1
       - name: com.unity.searcher
-        version: 4.3.1
+        version: 4.3.2
       keywords:
       - graphics
       - performance
@@ -744,20 +586,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637472780290000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
         path: 
-    - packageId: com.unity.test-framework@1.1.22
+    - packageId: com.unity.test-framework@1.1.27
       testable: 0
       isDirectDependency: 1
-      version: 1.1.22
+      version: 1.1.27
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -772,36 +614,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.4-preview
-        - 0.0.29-preview
-        - 1.0.0
-        - 1.0.7
-        - 1.0.9
-        - 1.0.11
-        - 1.0.12
-        - 1.0.13
-        - 1.0.14
-        - 1.0.16
-        - 1.0.17
-        - 1.0.18
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2
-        - 1.1.3
-        - 1.1.5
-        - 1.1.8
-        - 1.1.9
-        - 1.1.11
-        - 1.1.13
-        - 1.1.14
-        - 1.1.16
-        - 1.1.18
-        - 1.1.19
-        - 1.1.20
-        - 1.1.22
+        - 1.1.27
         compatible:
-        - 1.1.22
-        verified: 1.1.22
+        - 1.1.27
+        verified: 1.1.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -831,20 +647,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637469345300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.6
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -879,81 +695,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.2
-        - 1.0.21
-        - 1.0.23
-        - 1.0.25
-        - 1.0.26
-        - 1.1.0
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.3.0-preview
-        - 1.3.0
-        - 1.4.0-preview.1b
-        - 1.4.0-preview.2a
-        - 1.4.0-preview.3a
-        - 1.4.0
-        - 1.4.1-preview.1
-        - 1.4.1
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.0-preview.6
-        - 1.5.0-preview.7
-        - 1.5.0-preview.8
-        - 1.5.0-preview.10
-        - 1.5.0-preview.11
-        - 1.5.0-preview.12
-        - 1.5.0-preview.13
-        - 1.5.0-preview.14
-        - 1.5.0
-        - 1.5.1
-        - 1.5.3
-        - 1.5.4
-        - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.1
-        - 2.1.0-preview.1
-        - 2.1.0-preview.2
-        - 2.1.0-preview.3
-        - 2.1.0-preview.4
-        - 2.1.0-preview.5
-        - 2.1.0-preview.7
-        - 2.1.0-preview.8
-        - 2.1.0-preview.10
-        - 2.1.0-preview.11
-        - 2.1.0-preview.12
-        - 2.1.0-preview.13
-        - 2.1.0-preview.14
-        - 2.1.0
-        - 2.1.1
-        - 2.1.3
-        - 2.1.4
-        - 3.0.0-preview.1
-        - 3.0.0-preview.3
-        - 3.0.0-preview.4
-        - 3.0.0-preview.5
-        - 3.0.0-preview.7
-        - 3.0.0-preview.8
-        - 3.0.0-preview.10
-        - 3.0.0-preview.11
-        - 3.0.0-preview.12
-        - 3.0.0-preview.13
-        - 3.0.0-preview.14
-        - 3.0.0
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
+        - 3.0.6
         compatible:
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        verified: 3.0.4
+        - 3.0.6
+        verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -982,20 +727,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
-    - packageId: com.unity.timeline@1.4.6
+    - packageId: com.unity.timeline@1.4.8
       testable: 0
       isDirectDependency: 1
-      version: 1.4.6
+      version: 1.4.8
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1011,75 +756,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.2.5
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.10
-        - 1.2.11
-        - 1.2.12
-        - 1.2.13
-        - 1.2.14
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17
-        - 1.2.18
-        - 1.3.0-preview.2
-        - 1.3.0-preview.3
-        - 1.3.0-preview.5
-        - 1.3.0-preview.6
-        - 1.3.0-preview.7
-        - 1.3.0
-        - 1.3.1
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.4.0-preview.1
-        - 1.4.0-preview.2
-        - 1.4.0-preview.3
-        - 1.4.0-preview.5
-        - 1.4.0-preview.6
-        - 1.4.0-preview.7
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
-        - 1.4.4
-        - 1.4.5
-        - 1.4.6
-        - 1.5.0-pre.2
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.1-pre.1
-        - 1.5.1-pre.2
-        - 1.5.1-pre.3
-        - 1.5.2
-        - 1.6.0-pre.1
+        - 1.4.8
         compatible:
-        - 1.4.6
-        - 1.5.0-pre.2
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.1-pre.1
-        - 1.5.1-pre.2
-        - 1.5.1-pre.3
-        - 1.5.2
-        - 1.6.0-pre.1
-        verified: 1.4.6
+        - 1.4.8
+        verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -1116,20 +796,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637463150940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 2fe55e5d14362cc4fdcc886f56dbfe518298e4a5
+        revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1192,7 +872,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1240,7 +920,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1288,7 +968,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1336,7 +1016,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1384,7 +1064,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1432,7 +1112,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1484,7 +1164,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1540,7 +1220,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1589,7 +1269,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1637,7 +1317,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1685,7 +1365,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1733,7 +1413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1781,7 +1461,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1829,7 +1509,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1881,7 +1561,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1929,7 +1609,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1985,7 +1665,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2037,7 +1717,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2085,7 +1765,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2149,7 +1829,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2197,7 +1877,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2253,7 +1933,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2301,7 +1981,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2357,7 +2037,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2413,7 +2093,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2469,7 +2149,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2541,7 +2221,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2593,7 +2273,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2653,7 +2333,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2715,7 +2395,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2763,7 +2443,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2823,7 +2503,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2875,7 +2555,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2934,7 +2614,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2950,18 +2630,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
         - 1.0.6
         compatible:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -2982,7 +2652,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637429759280000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2995,7 +2665,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3011,33 +2681,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.12-preview.2
-        - 0.0.12-preview.5
-        - 0.0.12-preview.8
-        - 0.0.12-preview.10
-        - 0.0.12-preview.11
-        - 0.0.12-preview.13
-        - 0.0.12-preview.17
-        - 0.0.12-preview.19
-        - 0.0.12-preview.20
-        - 1.0.0-preview.1
-        - 1.0.1
-        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         compatible:
-        - 0.0.12-preview.2
-        - 0.0.12-preview.5
-        - 0.0.12-preview.8
-        - 0.0.12-preview.10
-        - 0.0.12-preview.11
-        - 0.0.12-preview.13
-        - 0.0.12-preview.17
-        - 0.0.12-preview.19
-        - 0.0.12-preview.20
-        - 1.0.0-preview.1
-        - 1.0.1
-        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         verified: 1.2.1
@@ -3057,7 +2703,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 636984649280000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3065,12 +2711,12 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/Unity.Mathematics.git
         revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
-    - packageId: com.unity.render-pipelines.core@10.3.1
+    - packageId: com.unity.render-pipelines.core@10.5.1
       testable: 0
       isDirectDependency: 0
-      version: 10.3.1
+      version: 10.5.1
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.render-pipelines.core@10.3.1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.render-pipelines.core@10.5.1
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3091,93 +2737,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.21
-        - 0.1.27
-        - 0.1.28
-        - 1.0.0-beta
-        - 1.0.1-beta
-        - 1.1.1-preview
-        - 1.1.2-preview
-        - 1.1.4-preview
-        - 1.1.5-preview
-        - 1.1.8-preview
-        - 1.1.10-preview
-        - 1.1.11-preview
-        - 2.0.1-preview
-        - 2.0.3-preview
-        - 2.0.4-preview
-        - 2.0.4-preview.1
-        - 2.0.5-preview
-        - 2.0.6-preview
-        - 2.0.7-preview
-        - 2.0.8-preview
-        - 3.0.0-preview
-        - 3.1.0-preview
-        - 3.3.0-preview
-        - 4.0.0-preview
-        - 4.0.1-preview
-        - 4.1.0-preview
-        - 4.2.0-preview
-        - 4.3.0-preview
-        - 4.6.0-preview
-        - 4.8.0-preview
-        - 4.9.0-preview
-        - 4.10.0-preview
-        - 5.0.0-preview
-        - 5.1.0
-        - 5.2.0
-        - 5.2.1
-        - 5.2.2
-        - 5.2.3
-        - 5.3.1
-        - 5.6.1
-        - 5.7.2
-        - 5.8.2
-        - 5.9.0
-        - 5.10.0
-        - 5.13.0
-        - 5.16.1
-        - 6.5.2
-        - 6.5.3
-        - 6.7.1
-        - 6.9.0
-        - 6.9.1
-        - 6.9.2
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 7.5.3
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.13
-        - 9.0.0-preview.35
-        - 9.0.0-preview.38
-        - 9.0.0-preview.60
-        - 9.0.0-preview.77
-        - 10.0.0-preview.30
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        - 10.3.1
+        - 10.5.1
         compatible:
-        - 10.3.1
-        verified: 10.3.1
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3201,20 +2764,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637472777410000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
         path: 
-    - packageId: com.unity.shadergraph@10.3.1
+    - packageId: com.unity.shadergraph@10.5.1
       testable: 0
       isDirectDependency: 0
-      version: 10.3.1
+      version: 10.5.1
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.shadergraph@10.3.1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.shadergraph@10.5.1
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3233,100 +2796,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.8
-        - 0.1.9
-        - 0.1.17
-        - 1.0.0-beta
-        - 1.1.1-preview
-        - 1.1.2-preview
-        - 1.1.3-preview
-        - 1.1.4-preview
-        - 1.1.5-preview
-        - 1.1.6-preview
-        - 1.1.8-preview
-        - 1.1.9-preview
-        - 2.0.1-preview
-        - 2.0.3-preview
-        - 2.0.4-preview
-        - 2.0.4-preview.1
-        - 2.0.5-preview
-        - 2.0.6-preview
-        - 2.0.7-preview
-        - 2.0.8-preview
-        - 3.0.0-preview
-        - 3.1.0-preview
-        - 3.3.0-preview
-        - 4.0.0-preview
-        - 4.0.1-preview
-        - 4.1.0-preview
-        - 4.2.0-preview
-        - 4.3.0-preview
-        - 4.6.0-preview
-        - 4.8.0-preview
-        - 4.9.0-preview
-        - 4.10.0-preview
-        - 5.0.0-preview
-        - 5.1.0
-        - 5.2.0
-        - 5.2.1
-        - 5.2.2
-        - 5.2.3
-        - 5.3.1
-        - 5.6.1
-        - 5.7.2
-        - 5.8.2
-        - 5.9.0
-        - 5.10.0
-        - 5.13.0
-        - 5.16.1
-        - 6.5.2
-        - 6.5.3
-        - 6.7.1
-        - 6.9.0
-        - 6.9.1
-        - 6.9.2
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 7.5.3
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.14
-        - 9.0.0-preview.34
-        - 9.0.0-preview.55
-        - 9.0.0-preview.72
-        - 10.0.0-preview.27
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        - 10.3.1
+        - 10.5.1
         compatible:
-        - 10.3.1
-        verified: 10.3.1
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.3.1
+        version: 10.5.1
       - name: com.unity.searcher
-        version: 4.3.1
+        version: 4.3.2
       resolvedDependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.3.1
+        version: 10.5.1
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -3334,7 +2815,7 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.searcher
-        version: 4.3.1
+        version: 4.3.2
       keywords: []
       registry:
         id: main
@@ -3348,20 +2829,76 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637472777690000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: library
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0
+        compatible:
+        - 2.0.0
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
     - packageId: com.unity.2d.common@4.0.3
       testable: 0
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.2d.common@4.0.3
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3377,26 +2914,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.9-preview.1
-        - 1.0.9-preview.2
-        - 1.0.10-preview
-        - 1.0.11-preview.1
-        - 1.1.0-preview.1
-        - 1.1.0-preview.2
-        - 1.2.0-preview.1
-        - 2.0.1
-        - 2.0.2
-        - 2.1.0
-        - 3.0.0
-        - 3.0.1
-        - 4.0.0
-        - 4.0.1
-        - 4.0.2
         - 4.0.3
-        - 5.0.0-pre.1
-        - 5.0.0-pre.2
         compatible:
-        - 4.0.2
         - 4.0.3
         verified: 4.0.3
       dependencies:
@@ -3431,7 +2950,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637408843940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3439,12 +2958,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: c97def465b1932276762fc13f4cfee58da99d5e9
         path: 
-    - packageId: com.unity.searcher@4.3.1
+    - packageId: com.unity.searcher@4.3.2
       testable: 0
       isDirectDependency: 0
-      version: 4.3.1
+      version: 4.3.2
       source: 1
-      resolvedPath: C:\Game Projects\mrGloomyEye\Library\PackageCache\com.unity.searcher@4.3.1
+      resolvedPath: C:\Users\Fay_HQ\Desktop\Projects\Games\mrGloomyEye\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3460,34 +2979,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 4.0.0-preview
-        - 4.0.0
-        - 4.0.7-preview
-        - 4.0.7
-        - 4.0.8-preview
-        - 4.0.9
-        - 4.1.0-preview
-        - 4.1.0
-        - 4.2.0
-        - 4.3.0
-        - 4.3.1
-        - 4.6.0-preview
-        - 4.7.0-preview
+        - 4.3.2
         compatible:
-        - 4.0.0-preview
-        - 4.0.0
-        - 4.0.7-preview
-        - 4.0.7
-        - 4.0.8-preview
-        - 4.0.9
-        - 4.1.0-preview
-        - 4.1.0
-        - 4.2.0
-        - 4.3.0
-        - 4.3.1
-        - 4.6.0-preview
-        - 4.7.0-preview
-        verified: 4.3.1
+        - 4.3.2
+        verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3505,15 +3000,15 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637272602300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-        revision: 56c3321cb776740e60e242e6c72cb5b4e8245256
+        revision: 798bfb84c8f09f7788a3a88c3c16d72c50451530
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Game Projects/mrGloomyEye/Packages
-m_EditorVersion: 2020.2.6f1 (8a2143876886)
+m_ProjectPath: C:/Users/Fay_HQ/Desktop/Projects/Games/mrGloomyEye/Packages
+m_EditorVersion: 2020.3.16f1 (049d6eca3c44)
